@@ -193,9 +193,14 @@ footer{
     .container{
         width:80%;
     }
-    
+
     header{
         flex-direction: column-reverse;
+        align-items:center;
+    }
+    
+    .section-one .top-section{
+        align-items: center;
     }
 
     .round-image{
