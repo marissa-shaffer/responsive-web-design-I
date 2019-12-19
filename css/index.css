@@ -200,7 +200,13 @@ footer{
     }
     
     .section-one .top-section{
-        align-items: center;
+        width: 100%;
+        font-size: 36px;
+        text-align:center;
+    }
+
+    .button{
+        width: 140px;
     }
 
     .round-image{
