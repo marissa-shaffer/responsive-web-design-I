@@ -223,20 +223,18 @@ footer{
         align-items:center;
     }
     .logo{
-        margin:5%; 
-        border-bottom: 1px solid black;
+        margin:5%;
+        /* border-bottom: 1px solid black; */
     }
     nav{
-        padding: 30%;
-        width: 100%;
         text-align:center;
-        line-height:3; 
+        line-height:3;
         font-size: 24px;
     } 
 
     nav a{ 
+        margin:20%;
         border-bottom: 1px solid black;
-        padding:2%;
     }
 
     .section-one .top-section{
