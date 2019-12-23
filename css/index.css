@@ -218,6 +218,9 @@ footer{
 }
 
 @media(max-width:500px){
+    .container{
+        width: 100%;
+    }
     header{
         flex-direction: column-reverse;
         align-items:center;
@@ -240,9 +243,11 @@ footer{
         margin: 0;
     }
     nav a{ 
-        /* margin:20%; */
         width: 100%;
         border-top: 1px solid black;
+    }
+    nav{
+        border-bottom:1px solid black;
     }
 
     .section-one .top-section{
@@ -251,7 +256,6 @@ footer{
     }
 
     .top-section h1{
-        /* border-top:1px solid black; */
         text-align: center;
     }
 
@@ -263,24 +267,32 @@ footer{
 
     .section-two{
         border-top: 2px solid black;
+        width:90%;
     }
 
     .section-two, .features, .about{
     flex-direction:column;
-    width: 100%;
+    width:100%;
     margin-top: 10%;
     margin-bottom:10%;
+    padding-left: 2%;
+    padding-right:2%;
     }
 
     .section-three, .services, .product, .vision{
     flex-direction: column;
     width: 100%;
     margin-top:10%;
-    margin-bottom:10%
+    margin-bottom:10%;
+    padding-left:2%;
+    padding-right:2%;
     }
 
     .contact {
+    width:100%;
     padding-top: 20%;
+    padding-left:2%;
+    padding-right:2%;
     border-top: 2px solid black;
     }
 }
