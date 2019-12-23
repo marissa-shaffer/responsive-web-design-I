@@ -224,7 +224,6 @@ footer{
     }
     .logo{
         margin:5%;
-        /* border-bottom: 1px solid black; */
     }
     nav{
         text-align:center;
@@ -239,6 +238,7 @@ footer{
 
     .section-one .top-section{
         flex-direction: column;
+        align-items:center;
     }
 
     .top-section h1{
@@ -246,7 +246,9 @@ footer{
     }
 
     .button{
-        margin-left:28%;
+        margin-left:25%;
+        font-size:20px;
+        width:170px;  
     }
 
     .section-two{
